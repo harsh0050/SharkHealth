@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "168264674406",
+    "project_id": "hackout-9dd42",
+    "storage_bucket": "hackout-9dd42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168264674406:android:73dbe1273bc47846df91a7",
+        "android_client_info": {
+          "package_name": "com.example.hackout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168264674406-vke5im5ilobv6qrav3mqageo62sc229l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5QxEXzzPrRG9uXO2A63KlhLg1BRyDjN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168264674406-vke5im5ilobv6qrav3mqageo62sc229l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="60dp">
+
+    <EditText
+        android:id="@+id/medicineEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_edit_text_background"
+        android:hint="Medicine Name"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/amountOfMedsEditText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/login_edit_text_background"
+        android:hint="Stock"
+        android:inputType="number"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="@+id/medicineEditText"
+        app:layout_constraintTop_toBottomOf="@+id/medicineEditText" />
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        app:layout_constraintBottom_toBottomOf="@+id/amountOfMedsEditText"
+        app:layout_constraintEnd_toEndOf="@+id/medicineEditText"
+        app:layout_constraintTop_toTopOf="@+id/amountOfMedsEditText">
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+        <ImageView
+            android:id="@+id/removeButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/baseline_remove_48"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
