@@ -5,11 +5,12 @@ Instructions for using the App:
 	1. Internet Connection required
 	2. It is better to run this app on two devices simultaneously using doctor's and pharmacist's credentials for better understanding 	of data synchronization.
 
-  *Login Credentials*
-    For Doctor:
-	    User Id: harsh
-	    Password: harsh
-     
-    For Pharmacist:
-      User Id: subhash
-      Password: subhash
+*Login Credentials*
+
+	For Doctor:
+		User Id: harsh
+		Password: harsh
+  
+  	For Pharmacist:
+		User Id: subhash
+		Password: subhash
